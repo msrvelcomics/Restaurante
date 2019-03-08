@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>McBonald's</title>
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style-pedidos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="index.html#hamburgueres">Hamburgueres</a></li>
+                <li><a href="index.html#shakes">Shakes</a></li>
+                <li><a href="index.html#historia">História</a></li>
+                <li><a href="index.html#local">Local</a></li>
+                <li><a href="pedidos.html">Peça já!</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h1>McBonald's</h1>
+            <h2>Pede aí, jovem!</h2>
+        </hgroup>
+    </header>
+    <main>
+        <form method="POST" action="index.html">
+          
+            <label for="nome">Nome completo:</label>
+            <br>
+            <input name="nome" id="nome" type="text" maxlength="50" minlength="3" required />
+            <br>
+           
+            <label for="endereco">Endereço de entrega</label>
+            <br>
+            <input name="endereco" id="endereco" type="text" maxlength="50" minlength="3" required />
+            <br>
+           
+            <label for="telefone">telefone</label>
+            <br>
+            <input name="telefone" id="telefone" type="tel" required/>
+            <br>
+           
+            <label for="email">E-mail para promoções</label>      
+            <br>
+            <input name="email" id="email" type="email" required/>
+            <br>
+           
+            <div>
+            <label for="hamburguer">Hambúrguer</label>
+            <br />
+            
+
+                <select name="hamburguer" id="hamburguer" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="black_burguer">Black Burguer</option>
+                    <option value="furiso">Furioso</option>
+                    <option value="tsukaburguer">Tsukaburguer</option>
+                </select>
+            </div>
+            
+            
+            <div>
+                <label for="shake">Shake</label> 
+                <br />
+                <select name="shake" id="shake" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="biscoito">Biscoito</option>
+                    <option value="morango">Morango</option>
+                </select>
+            </div>
+            
+            
+            <input type="submit" value="Finalizar pedido!" />
+            <br>
+        </form>
+    </main>
+    <footer>
+        <div class="beck">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                mcbonalds@email.com
+                <br />
+                11 1234 6789
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>

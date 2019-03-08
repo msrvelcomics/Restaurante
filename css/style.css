@@ -1,0 +1,209 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+#conteudo_geral {
+
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+h1 {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ff9933;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: 0.65em 3em;
+}
+
+nav a:hover{
+    background-color: #c27629;
+    color: #fff;
+}
+
+#logo_area {
+    background-image: url(../img/fundo_logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1em;
+}
+
+#logo_area h2 {
+    color: #ff9933;
+    text-shadow:     -2px -2px 0 #361a0c,
+                      2px -2px  0 #361a0c,
+                     -2px -2px 0 #361a0c,
+                      2px -2px 0 #361a0c;              
+}
+
+#banner {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+#banner p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#banner img {
+    margin: 10px 0 10px 0;
+}
+
+.banner_destaque {
+    font-size: 4em;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    color: #a70000;
+    -webkit-text-stroke: 4px #ffcc00;
+}
+
+#hamburgueres {
+    background-color: #361a0c;
+}
+
+#hamburgueres h2 {
+    color: #ff9933;
+    text-shadow:    -2px -2px 0 #a70000,
+                     2px -2px 0 #a70000,
+                    -2px  2px 0 #a70000,
+                     2px  2px 0 #a70000;       
+
+}
+section h2 {
+    padding: 20px 0;
+}
+
+section > a{
+display: block;
+padding: 20px 0;
+color: #ff9933;
+text-decoration: none;
+}
+
+.flex-grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a70000;
+    font-family:  'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+#shakes h2 {
+    color: #361a0c;
+    text-shadow:    -2px -2px 0 #ff9933,
+                     2px -2px 0 #ff9933,
+                    -2px -2px 0 #ff9933,
+                     2px -2px 0 #ff9933;       
+}
+
+section {
+    text-align: center;
+}
+
+.flex-grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a70000;
+    font-family:  'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+.flex-grupo > div {
+    background-color: #ff9933;
+}
+
+.flex-grupo > div > p {
+    height: 1.5em;
+}
+
+.flex-grupo > div > p:nth-child(odd) {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.flex-grupo > div > p:nth-child(even) {
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow: 
+    -3px -3px 0 #ff9933,
+     3px -3px 0 #ff9933,
+    -3px 3px  0 #ff9933,
+     3px 3px  0 #ff9933;
+}
+
+#historia {
+    background-color: #a70000;
+    
+    
+}
+
+#historia h2 {
+    font-size: 2.0em;
+    color: #470505;
+    text-shadow: -2px -2px 0 #ffcc00,
+                 -2px -2px 0 #ffcc00,
+                 -2px -2px 0 #ffcc00,
+                 -2px -2px 0 #ffcc00;
+                 text-align: left
+}
+
+#historia p{
+    color: #fff;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.beck {
+    background-color: #ff9933;
+    color: #a70000;
+    text-align: center;
+}
+
+
+.historia_conteudo{
+    max-width: 1230px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+ .historia_texto{
+     text-align: right;
+
+ }
+ .historia_texto a{
+     text-decoration: none;
+     color: #fff
+ }
+
+ .furioso p {
+     text-align: left
+ }
+
